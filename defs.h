@@ -1,10 +1,10 @@
 #define SCREEN_WIDTH 1200
 #define SCREEN_HEIGHT 640 
 
-#define PLAYER_SPEED_X 4
-#define PLAYER_SPEED_Y 4
+#define PLAYER_SPEED 4
 
-#define BULLET_W 25
-#define BULLET_H 25
+#define BULLET_SPEED 10
+
+#define BULLET_SIZE 25
 
 #define MAX_KEYBOARD_KEYS 350

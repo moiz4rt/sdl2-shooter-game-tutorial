@@ -1,6 +1,7 @@
 #ifndef STRUCTS_H
 #define STRUCTS_H
 
+#include "defs.h"
 #include <SDL2/SDL.h>
 
 typedef struct {
@@ -15,7 +16,9 @@ typedef struct {
     int keyboard[MAX_KEYBOARD_KEYS];
 } App;
 
-typedef struct {
+typedef struct Entity Entity;
+
+typedef struct Entity {
     float x;
     float y;
     int w;
